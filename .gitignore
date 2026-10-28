@@ -1,0 +1,34 @@
+# Dependencies and generated files
+node_modules/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+.cache/
+.vite/
+.npm/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.p12
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Presentation working files, not needed to run the H5
+deck_build/
+deck2_build/
+output/
+source_deck.txt
